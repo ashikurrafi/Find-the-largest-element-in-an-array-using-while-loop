@@ -23,5 +23,6 @@ int main()
 		i++;
 	}
 	cout << "Maximum value : " << max;
+	delete[]array;
 	return 0;
 }
